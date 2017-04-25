@@ -222,6 +222,11 @@ http://www.cl.cam.ac.uk/research/security/ctsrd/tesla
 ### Typesan (VUSec)
 [GitHub](https://github.com/vusec/typesan) 
 
+### Verified LLVM (VeLLVM)
+> Model syntax and semantics of LLVM IR in Coq for proving things about code reasoning on IR
+http://www.cis.upenn.edu/~stevez/vellvm/
+https://deepspec.org/main
+
 ### Whole program LLVM
 > Help linking multiple .bc files to one
 [GitHub](https://github.com/travitch/whole-program-llvm)
