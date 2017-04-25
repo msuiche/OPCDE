@@ -1,0 +1,24 @@
+
+There are many possible projects, but if you are looking for some
+ideas to get you going, here are some. Note, you may need to look
+at the slide deck or the projects.md file for some idea of what is
+being said.
+
+
+- Revive foreign-inference project to newer LLVM. Add support for LibFuzzer
+
+- Create a tool that analyzes code meant to use Divine or Seahorn for the
+purposes of cataloging or policy validation
+
+- Build on Comminute to just be more realistic of a tool
+
+- Build on IntFlip
+
+- Build on npassert to determine asymptotic behaviors of code (think ASAP
+from EPFL)
+
+- Snapshotting kernel regions for replay
+
+There are more, will add as i recall them.
+
+
