@@ -53,6 +53,7 @@ http://www.cl.cam.ac.uk/research/security/cadets/
 > Dangling pointer detection
 
 [GitHub](https://github.com/vusec/dangsan)
+
 [Paper](http://www.cs.vu.nl/~giuffrida/papers/dangsan_eurosys17.pdf)
 
 ### DataFlowSanitizer
@@ -64,6 +65,7 @@ http://clang.llvm.org/docs/DataFlowSanitizerDesign.html
 > Explicit-state model checker
 
 https://divine.fi.muni.cz
+
 [Thesis](https://is.muni.cz/th/373979/fi_m/thesis.pdf)
 
 ### DynamicTools
@@ -77,6 +79,7 @@ https://divine.fi.muni.cz
 > An optimizing decompiler (for reversing)
 
 http://zneak.github.io/fcd/
+
 [GitHub](https://github.com/zneak/fcd) 
 
 ### FindFlows
@@ -92,6 +95,7 @@ Out of date, someone should revive and build LibFuzzer wrappers
 > Failure-sketching to help determine reasons for faults
 
 http://dslab.epfl.ch/proj/gist/
+
 [Paper](http://dslab.epfl.ch/pubs/gist.pdf)
 
 ### Trail of Bits CGC
@@ -101,7 +105,9 @@ http://dslab.epfl.ch/proj/gist/
 > Compile time static analyzer
 
 http://fbinfer.com/
+
 [GitHub](https://github.com/facebook/infer)
+
 [Infer Clang Plugin](https://github.com/facebook/facebook-clang-plugins/tree/ee26293dd046acc5c2dd862d3201aa9f7dace96a)
 
 ### Kryptonite obfuscator
@@ -111,6 +117,7 @@ http://fbinfer.com/
 > Instruction level fault injector
 
 [GitHub](https://github.com/soarlab/KULFI)
+
 http://formalverification.cs.utah.edu/fmr/#kulfi
 
 ### IKOS (NASA)
@@ -132,7 +139,9 @@ https://ti.arc.nasa.gov/opensource/ikos/
 > Evolutionary, in-process guided fuzzing library
 
 http://llvm.org/docs/LibFuzzer.html
+
 [GitHub](https://github.com/llvm-mirror/llvm/tree/master/lib/Fuzzer)
+
 [LibFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md) 
 
 ### llmc
@@ -155,10 +164,12 @@ https://bitbucket.org/jvillard/llstar/wiki/Home
 
 ### Obfuscator-LLVM
 [GitHub](https://github.com/obfuscator-llvm/obfuscator)
+
 Note: https://github.com/obfuscator-llvm/obfuscator/tree/llvm-3.6.1/lib/Transforms/Obfuscation
 
 ### Passes from QuarksLab
 [GitHub](https://github.com/quarkslab/llvm-passes/tree/master/llvm-passes)
+
 [``Turning regular code into atrocities''](http://blog.quarkslab.com/turning-regular-code-into-atrocities-with-llvm.html)
 
 ### pmGen
@@ -170,7 +181,9 @@ Note: https://github.com/obfuscator-llvm/obfuscator/tree/llvm-3.6.1/lib/Transfor
 > protecting structured address computations against soft errors
 
 http://formalverification.cs.utah.edu/fmr/#presage
+
 [Git]https://utahfmr.github.io/PRESAGE/
+
 [Paper](https://arxiv.org/abs/1606.08948)
 Basically, it attempts to reorganize GetElementPtr's to best handle alpha particle hits.
 
@@ -191,6 +204,7 @@ Basically, it attempts to reorganize GetElementPtr's to best handle alpha partic
 > Lift MC to IR by using QEMU
 
 https://rev.ng/
+
 [Rev.ng LLVM developer mtg 2016](http://llvm.org/devmtg/2016-11/Slides/DiFederico-rev.ng.pdf)
 
 ### s2e (EPFL)
@@ -198,22 +212,26 @@ https://rev.ng/
 
 ### SAFECode
 http://safecode.cs.illinois.edu/ 
+
 [``Memory Safety for Low-Level Software/Hardware Interactions''](http://llvm.org/pubs/2009-08-12-UsenixSecurity-SafeSVAOS.html)
 
 ### SafeInit (VUSec)
 > Detect uninitialized memory use errors
 
 [GitHub](https://github.com/vusec/safeinit)
+
 [Paper](https://www.vusec.net/download/?t=papers/safeinit_ndss17.pdf)
 
 ### Seahorn
 > Intraprocedural model checker
 
 [GitHub](https://github.com/seahorn/seahorn)
+
 See the links there to CRAB etc
 
 ### Security-Oriented Analysis of Application Programs (SOAAP) (Cambridge)
 http://www.cl.cam.ac.uk/research/security/ctsrd/soaap
+
 [GitHub](https://github.com/CTSRD-SOAAP)
 
 ### Sloopy
@@ -221,24 +239,29 @@ http://forsyte.at/people/pani/sloopy/
 
 ### Smack
 [GitHub](https://github.com/smackers/smack)
+
 http://soarlab.org/2014/05/smack-decoupling-source-language-details-from-verifier-implementations/
 
 ### Software Analysis Workbench (SAW) (Galois Inc)
 > Formal verification via equivelancy checks
 
 http://saw.galois.com/
+
 [GitHub SAW Script](https://github.com/GaloisInc/saw-script) 
+
 [GitHub llvm-verifier](https://github.com/GaloisInc/llvm-verifier)
 
 ### Static Value Flow (SVF) (UNSW)
 > Pointer Analysis and Program Dependence Analysis for C and C++ Programs
 
 http://unsw-corg.github.io/SVF/
+
 [GitHub](https://github.com/unsw-corg/SVF)
 
 
 ### Temporally Enhanced Security Logic Assertions (TESLA) (Cambridge)
 http://www.cl.cam.ac.uk/research/security/ctsrd/tesla
+
 [GitHub](https://github.com/CTSRD-TESLA/)
 
 ### TokenCap
@@ -253,6 +276,7 @@ http://www.cl.cam.ac.uk/research/security/ctsrd/tesla
 > Model syntax and semantics of LLVM IR in Coq for proving things about code reasoning on IR
 
 http://www.cis.upenn.edu/~stevez/vellvm/
+
 https://deepspec.org/main
 
 ### Whole program LLVM
