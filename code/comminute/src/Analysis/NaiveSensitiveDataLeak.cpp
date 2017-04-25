@@ -43,7 +43,11 @@ bool
 NaiveSensitiveDataLeak::runOnModule(Module &M)
 {
 	errs() << "Running naive sensitive data leak pass\n";
-    TargetCallSitesPass &p = getAnalysis<TargetCallSitesPass>();
+	/*
+	 * We can use the upstream analysis from the TargetCallSitesPass.
+	 * Always nice use already available tools.
+	 */
+	TargetCallSitesPass &p = getAnalysis<TargetCallSitesPass>();
 
 
 	if (p.src_empty()) {
