@@ -172,6 +172,11 @@ Note: https://github.com/obfuscator-llvm/obfuscator/tree/llvm-3.6.1/lib/Transfor
 
 [``Turning regular code into atrocities''](http://blog.quarkslab.com/turning-regular-code-into-atrocities-with-llvm.html)
 
+### Path Analysis for invariant Generation by Abstract Interpretation (PAGAI) (VERIMAG)
+http://pagai.forge.imag.fr/
+
+Also check out *screen* from trail of bits which makes use of PAGAI: https://github.com/trailofbits/screen
+
 ### pmGen
 > Translate IR to Promela for verification
 
