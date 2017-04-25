@@ -34,6 +34,7 @@ http://lcamtuf.coredump.cx/afl
 
 ### ASAP (EPFL)
 > Analyze runtime checks to balance those that are needed and those that are not
+
 http://dslab.epfl.ch/proj/asap/
 
 ### Causal, Adaptive, Distributed, and Efficient Tracing System (CADETS)
@@ -45,19 +46,23 @@ http://www.cl.cam.ac.uk/research/security/cadets/
 
 ### cclyzer
 > A tool for analyzing LLVM bitcode using Datalog.
+
 [GitHub](https://github.com/plast-lab/cclyzer)
 
 ### DangSan (VUSec)
 > Dangling pointer detection
+
 [GitHub](https://github.com/vusec/dangsan)
 [Paper](http://www.cs.vu.nl/~giuffrida/papers/dangsan_eurosys17.pdf)
 
 ### DataFlowSanitizer
 > Generalized data flow API
+
 http://clang.llvm.org/docs/DataFlowSanitizerDesign.html 
 
 ### Divine
 > Explicit-state model checker
+
 https://divine.fi.muni.cz
 [Thesis](https://is.muni.cz/th/373979/fi_m/thesis.pdf)
 
@@ -70,6 +75,7 @@ https://divine.fi.muni.cz
 
 ### fdc
 > An optimizing decompiler (for reversing)
+
 http://zneak.github.io/fcd/
 [GitHub](https://github.com/zneak/fcd) 
 
@@ -78,11 +84,13 @@ https://llvm.org/svn/llvm-project/giri/trunk/lib/Static/FindFlows.cpp
 
 ### Foreign Inference
 > Auto-generate wrappers for C code for Python etc.
+
 [GitHub](https://github.com/travitch/foreign-inference) 
 Out of date, someone should revive and build LibFuzzer wrappers
 
 ### Gist Static Analyzer (EPFL)
 > Failure-sketching to help determine reasons for faults
+
 http://dslab.epfl.ch/proj/gist/
 [Paper](http://dslab.epfl.ch/pubs/gist.pdf)
 
@@ -91,6 +99,7 @@ http://dslab.epfl.ch/proj/gist/
 
 ### Infer (Facebook)
 > Compile time static analyzer
+
 http://fbinfer.com/
 [GitHub](https://github.com/facebook/infer)
 [Infer Clang Plugin](https://github.com/facebook/facebook-clang-plugins/tree/ee26293dd046acc5c2dd862d3201aa9f7dace96a)
@@ -100,23 +109,28 @@ http://fbinfer.com/
 
 ### KULFI (Utah)
 > Instruction level fault injector
+
 [GitHub](https://github.com/soarlab/KULFI)
 http://formalverification.cs.utah.edu/fmr/#kulfi
 
 ### IKOS (NASA)
 > a C++ library designed to facilitate the development of sound static analyzers based on Abstract Interpretation
+
 https://ti.arc.nasa.gov/opensource/ikos/
 
 ### lafindel's transforms
 > Splitting certain compares to improve fuzzing
+
 [``Circumventing Fuzzing Roadblocks with Compiler Transformations''](https://lafintel.wordpress.com/2016/08/15/circumventing-fuzzing-roadblocks-with-compiler-transformations/)
 
 ### LeakSanitizer
 > Memory leak detection
+
 [GitHub](https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer)
 
 ### LibFuzzer
 > Evolutionary, in-process guided fuzzing library
+
 http://llvm.org/docs/LibFuzzer.html
 [GitHub](https://github.com/llvm-mirror/llvm/tree/master/lib/Fuzzer)
 [LibFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md) 
@@ -126,14 +140,17 @@ http://llvm.org/docs/LibFuzzer.html
 
 ### llStar
 > Pre/post condition intra-procedural verifier
+
 https://bitbucket.org/jvillard/llstar/wiki/Home
 
 ### Mc Sema (ToB)
-> Lift MC to IR for retargeting, recompilation, symbolic exec
+> Lift MC to IR for retargeting, patching, recompilation, symbolic exec
+
 [Github](https://github.com/trailofbits/mcsema)
 
 ### MemorySanitizer
 > Detect pointer misalignment etc
+
 [GitHub](https://github.com/google/sanitizers/wiki/MemorySanitizer) and see source in lib/Transform/Instrumentation
 
 ### Obfuscator-LLVM
@@ -146,10 +163,12 @@ Note: https://github.com/obfuscator-llvm/obfuscator/tree/llvm-3.6.1/lib/Transfor
 
 ### pmGen
 > Translate IR to Promela for verification
+
 [GitHub](https://github.com/roselone/pmGen)
 
 ### PRESAGE (Utah)
 > protecting structured address computations against soft errors
+
 http://formalverification.cs.utah.edu/fmr/#presage
 [Git]https://utahfmr.github.io/PRESAGE/
 [Paper](https://arxiv.org/abs/1606.08948)
@@ -160,14 +179,17 @@ Basically, it attempts to reorganize GetElementPtr's to best handle alpha partic
 
 ### Remill (ToB)
 > Lift MC instructions to IR
+
 [GitHub](https://github.com/trailofbits/remill)
 
 ### Return-less code
 > Transform IR to have no return statements.. attempt to avoid ROP
+
 [Paper](http://www4.ncsu.edu/~mcgrace/EUROSYS10.pdf) 
 
 ### Rev.ng
 > Lift MC to IR by using QEMU
+
 https://rev.ng/
 [Rev.ng LLVM developer mtg 2016](http://llvm.org/devmtg/2016-11/Slides/DiFederico-rev.ng.pdf)
 
@@ -180,11 +202,13 @@ http://safecode.cs.illinois.edu/
 
 ### SafeInit (VUSec)
 > Detect uninitialized memory use errors
+
 [GitHub](https://github.com/vusec/safeinit)
 [Paper](https://www.vusec.net/download/?t=papers/safeinit_ndss17.pdf)
 
 ### Seahorn
 > Intraprocedural model checker
+
 [GitHub](https://github.com/seahorn/seahorn)
 See the links there to CRAB etc
 
@@ -201,12 +225,14 @@ http://soarlab.org/2014/05/smack-decoupling-source-language-details-from-verifie
 
 ### Software Analysis Workbench (SAW) (Galois Inc)
 > Formal verification via equivelancy checks
+
 http://saw.galois.com/
 [GitHub SAW Script](https://github.com/GaloisInc/saw-script) 
 [GitHub llvm-verifier](https://github.com/GaloisInc/llvm-verifier)
 
 ### Static Value Flow (SVF) (UNSW)
 > Pointer Analysis and Program Dependence Analysis for C and C++ Programs
+
 http://unsw-corg.github.io/SVF/
 [GitHub](https://github.com/unsw-corg/SVF)
 
@@ -217,6 +243,7 @@ http://www.cl.cam.ac.uk/research/security/ctsrd/tesla
 
 ### TokenCap
 > Find tokens/magics in code so as to quickly pass fuzzing blockers
+
 [GitHub](https://github.com/0vercl0k/stuffz/blob/master/llvm-funz/afl-llvm-tokencap-pass.so.cc)
 
 ### Typesan (VUSec)
@@ -224,9 +251,11 @@ http://www.cl.cam.ac.uk/research/security/ctsrd/tesla
 
 ### Verified LLVM (VeLLVM)
 > Model syntax and semantics of LLVM IR in Coq for proving things about code reasoning on IR
+
 http://www.cis.upenn.edu/~stevez/vellvm/
 https://deepspec.org/main
 
 ### Whole program LLVM
 > Help linking multiple .bc files to one
+
 [GitHub](https://github.com/travitch/whole-program-llvm)
