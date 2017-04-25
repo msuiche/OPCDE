@@ -16,6 +16,11 @@ using namespace llvm;
 
 #include "NullPtrAssertPass.h"
 
+/*
+ * cl::opt represent options taken from the command line, they can include defaults 
+ * help descriptions, etc.  This is how a pass can be made more granular or specifify
+ * a type of analysis for instance.
+ */
 cl::opt<std::string> ReplaceConfigFileName("npa-target-config",
   cl::desc("configuration file for np asserts"), cl::init(""));
 

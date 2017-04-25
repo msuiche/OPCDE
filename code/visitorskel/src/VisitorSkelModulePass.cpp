@@ -17,6 +17,10 @@ struct VisitorSkelModulePass : public ModulePass {
 
 	VisitorSkelModulePass() : ModulePass(ID) {}
 
+  /*
+   * The point of this pass is to demonstrate how easily we can find a specific instruction type, rather
+   * than looping through each instruction...  
+   */
 	virtual bool
 	runOnModule(Module &M)
 	{
