@@ -7,6 +7,10 @@ being said.
 
 - Revive foreign-inference project to newer LLVM. Add support for LibFuzzer
 
+- Passes that look at slices or pruning or other for improvements in fuzzing
+
+- Use SAW on open source projects to flesh out things
+
 - Create a tool that analyzes code meant to use Divine or Seahorn for the
 purposes of cataloging or policy validation
 
