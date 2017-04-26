@@ -229,7 +229,7 @@ jsonclean:
 	$(QUIET)rm -rf thirdparty/jsoncpp-1.8.0
 
 clean:
-	$(QUIET)rm -rf build
+	$(QUIET)rm -rf build tests/*.ll
 
 cleanall: clean jsonclean
 

@@ -42,6 +42,10 @@ NullPtrAssertPass::insertAssertionFunction(Module *M)
 	assertFn->setCallingConv(CallingConv::C);
 	Argument *arg = &assertFn->getArgumentList().front();
 	arg->setName("ptrToCheck");	
+
+	/*
+	 * Insert blocks for entry and branches
+	 */
 	BasicBlock *blkEntry = BasicBlock::Create(ctx, "npa_entry_blk", assertFn);
 	BasicBlock *blkAssert = BasicBlock::Create(ctx, "npa_assert_blk", assertFn);
 	BasicBlock *blkReturn = BasicBlock::Create(ctx, "npa_return_blk", assertFn);

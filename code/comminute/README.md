@@ -20,3 +20,12 @@ There is a lot to doing good static analysis and that's where the
 meat of the research is!
 
 I repeat... Just a learning tool.
+
+### Multiple potentially dangerous examples
+
+The potent-danger examples are there to illustrate you can do the
+thing a few different ways. Essentially, depending on your 
+design needs and end goals, you may want to implement one
+methodology or another... 
+
+
