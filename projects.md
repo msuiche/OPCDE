@@ -49,6 +49,11 @@ http://www.cl.cam.ac.uk/research/security/cadets/
 
 [GitHub](https://github.com/plast-lab/cclyzer)
 
+### cspgen (Draper)
+> Map IR to models in Communicating Sequential Processes (CSP) process calculus.
+
+[GitHub](https://github.com/draperlaboratory/cspgen)
+
 ### DangSan (VUSec)
 > Dangling pointer detection
 
@@ -90,6 +95,12 @@ https://llvm.org/svn/llvm-project/giri/trunk/lib/Static/FindFlows.cpp
 
 [GitHub](https://github.com/travitch/foreign-inference) 
 Out of date, someone should revive and build LibFuzzer wrappers
+
+### Fracture (Draper)
+> Arch independent decompiler to LLVM IR (ver 3.6)
+
+[GitHub](https://github.com/draperlaboratory/fracture)
+
 
 ### Gist Static Analyzer (EPFL)
 > Failure-sketching to help determine reasons for faults
