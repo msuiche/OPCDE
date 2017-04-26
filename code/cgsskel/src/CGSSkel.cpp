@@ -31,7 +31,11 @@ bool
 CGSSkel::runOnSCC(CallGraphSCC &GSCC)
 {
 	errs() << "  Strongly connected component found:\n";
-	
+
+	/*
+	 * Singular SCC's can be used to detect recursion. See:
+	 * http://llvm.org/docs/doxygen/html/FunctionAttrs_8.cpp_source.html
+	 */	
 	if (GSCC.isSingular()) {
 		errs() << "    SCC is singular\n";
 	}
@@ -44,8 +48,6 @@ CGSSkel::runOnSCC(CallGraphSCC &GSCC)
 	// return true if Module has been changed.
 	return false;
 }
-
-
 
 /*
  * Register this pass to be made usable.
