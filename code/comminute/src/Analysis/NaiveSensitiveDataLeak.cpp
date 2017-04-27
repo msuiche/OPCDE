@@ -5,12 +5,6 @@
  * target values of interest (sinks, sources, and the related data);
  * it runs prior to this pass.
  *
- * It is using the StoreCollector a poor means of tracking 
- * memory load/store use. That could be a pass but it isn't. There
- * are much better ways for handling this... Andersen's AA or
- * MemoryDependenceAnalysis. The former is a bit more memory intensive
- * and agressive, while the latter is ``lazy''.
- *
  * There is no handling of special entry points or callbacks that are
  * tainted a priori.
  */
