@@ -1,4 +1,4 @@
-#Supply Chainsaw: Practical software supply chain attacks for everyone
+# Supply Chainsaw: Practical software supply chain attacks for everyone
 
 I recently presented Supply Chainsaw: Practical software supply chain attacks for everyone at the OPCDE technical security conference in Dubai.
 
