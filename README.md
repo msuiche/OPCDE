@@ -14,7 +14,7 @@ OPCDE DXB 2017 Materials (26-27 April 2017)
 * Exploring Your System Deeper - Oleksandr Bazhaniuk (@ABazhaniuk)
 * Windows Operating System Archaeology - Matt Nelson (@enigma0x3)
 * Blinded Random Block Corruption - Rodrigo Branco (brancorodrigo)
-* Practical attacks against Digital Wallet - Loic Faletta (@zavidan)
+* Practical attacks against Digital Wallet - Loic Falletta (@zavidan)
 * 15 ways to break RSA security - Renaud Lifchitz  (@nono2357)
 * Stranger Danger - Mohamed Saher (@halsten), Ahmed Garhy (@9ee1), Nikita Tarakanov (@NTarakanov)
 * Lighting Talk
