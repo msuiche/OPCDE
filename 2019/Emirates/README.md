@@ -1,7 +1,7 @@
 # OPCDE
 OPCDE Kenya 2019
 
-Create a folder using the following format "<Talk name> - <Authors>" containing your slides and materials.
+Create a folder using the following format "Talk name - Authors" containing your slides and materials.
 
 ## Agenda
 - Automated Reverse Engineering of Industrial Control Systems Binaries (Mihalis Maniatakos)
