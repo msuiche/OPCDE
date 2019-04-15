@@ -10,7 +10,7 @@ Create a folder using the following format "Talk name - Authors" containing your
 - Lions at the watering hole (Andrei Boz)
 - Next Gen IoT Botnets - owning 450.000 devices from a single vendor (Alex "Jay" Balan)
 - Danger of using fully homomorphic encryption，a look at Microsoft SEAL (Zhiniang Peng)
-- (SAP) Gateway to Heaven (Mathieu GELI)
+- (SAP) Gateway to Heaven (Mathieu Geli & Dmitry Chastuhin)
 - NTLM Relay Is Dead,NO, this is impossible (sanr, Yang Zhang)
 - Modern Secure Boot Attacks: Bypassing Hardware Root of Trust from Software (Alex Matrosov)
 - Practical Uses for Memory Visualization (Ulf Frisk)
