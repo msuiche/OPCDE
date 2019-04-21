@@ -1,5 +1,5 @@
 # OPCDE
-OPCDE Kenya 2019
+OPCDE U.A.E. 2019
 
 Create a folder using the following format "Talk name - Authors" containing your slides and materials.
 
