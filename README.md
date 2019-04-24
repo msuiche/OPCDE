@@ -33,10 +33,10 @@ OPCDE started in 2017 and had the pleasure to welcome to below speakers since it
 * UEFI BIOS firmware analysis at scale - Oleksandr Bazhaniuk (@ABazhaniuk)
 
 ### Kenya
-- Program Analysis on Smart Contracts - JP Smith, Trail Of Bits (@japesinator)
-- A Walk With Shannon: A walkthrough of a PWN2OWN Baseband exploit - Amat Cama, Independant (@amatcama)
-- Reversing the Octagon: Next-Gen Windows Security - Alex Ionescu, Dave Weston (@aionescu & @dwizzzleMSFT)
-- The Baseband Basics: Understanding, Debugging and Pwning the Mediatek Communication Processor - Nitay Artenstein, Charles Muiruri (@nitayart & @icrackthecode)
+* Program Analysis on Smart Contracts - JP Smith, Trail Of Bits (@japesinator)
+* A Walk With Shannon: A walkthrough of a PWN2OWN Baseband exploit - Amat Cama, Independant (@amatcama)
+* Reversing the Octagon: Next-Gen Windows Security - Alex Ionescu, Dave Weston (@aionescu & @dwizzzleMSFT)
+* The Baseband Basics: Understanding, Debugging and Pwning the Mediatek Communication Processor - Nitay Artenstein, Charles Muiruri (@nitayart & @icrackthecode)
 * You and your research - Saif ElSherei (@Saif_Sherei)
 
 ## 2017
