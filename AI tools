@@ -1,0 +1,81 @@
+.
+
+While AI tools present a range of new functionality for businesses ,the use of artificial intelligence raises ethical questions. This is because deep learning algorithms, which underpin many of the most advanced AI tools, are only as smart as the data they are given in training. Because a human selects what data should be used for training an AI program, the potential for human bias is inherent and must be monitored closely.
+
+Some industry experts believe that the term artificial intelligence is too closely linked to popular culture, causing the general public to have unrealistic fears about artificial intelligence and improbable expectations about how it will change the workplace and life in general. Researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that AI will simply improve products and services, not replace the humans that use them.
+Components of AI
+Types of artificial intelligence
+
+Arend Hintze, an assistant professor of integrative biology and computer science and engineering at Michigan State University, categorizes AI into four types, from the kind of AI systems that exist today to sentient systems, which do not yet exist. His categories are as follows:
+
+    Type 1: Reactive machines. An example is Deep Blue, the IBM chess program that beat Garry Kasparov in the 1990s. Deep Blue can identify pieces on the chess board and make predictions, but it has no memory and cannot use past experiences to inform future ones. It analyzes possible moves -- its own and its opponent -- and chooses the most strategic move. Deep Blue and Google's AlphaGO were designed for narrow purposes and cannot easily be applied to another situation.
+    Type 2: Limited memory. These AI systems can use past experiences to inform future decisions. Some of the decision-making functions in self-driving cars are designed this way. Observations inform actions happening in the not-so-distant future, such as a car changing lanes. These observations are not stored permanently.
+    Type 3: Theory of mind. This psychology term refers to the understanding that others have their own beliefs, desires and intentions that impact the decisions they make. This kind of AI does not yet exist.
+    Type 4: Self-awareness. In this category, AI systems have a sense of self, have consciousness. Machines with self-awareness understand their current state and can use the information to infer what others are feeling. This type of AI does not yet exist .
+
+An explanation of the differences between AI and cognitive computing
+What's the difference between AI and cognitive computing?
+Examples of AI technology
+
+AI is incorporated into a variety of different types of technology. Here are seven examples.
+
+    Automation: What makes a system or process function automatically. For example, robotic process automation (RPA) can be programmed to perform high-volume, repeatable tasks that humans normally performed. RPA is different from IT automation in that it can adapt to changing circumstances.
+    Machine learning: The science of getting a computer to act without programming . Deep learning is a subset of machine learning that, in very simple terms, can be thought of as the automation of predictive analytics. There are three types of machine learning algorithms:
+        Supervised learning: Data sets are labeled so that patterns can be detected and used to label new data sets
+        Unsupervised learning: Data sets aren't labeled and are sorted according to similarities or differences
+        Reinforcement learning: Data sets aren't labeled but, after performing an action or several actions, the AI system is given feedback
+    Machine vision: The science of allowing computers to see. This technology captures and analyzes visual information using a camera, analog-to-digital conversion and digital signal processing. It is often compared to human eyesight, but machine vision isn't bound by biology and can be programmed to see through walls, for example. It is used in a range of applications from signature identification to medical image analysis. Computer vision, which is focused on machine-based image processing, is often conflated with machine vision.
+    Natural language processing (NLP): The processing of human -- and not computer -- language by a computer program. One of the older and best known examples of NLP is spam detection, which looks at the subject line and the text of an email and decides if it's junk. Current approaches to NLP are based on machine learning. NLP tasks include text translation, sentiment analysis and speech recognition.
+    Robotics: A field of engineering focused on the design and manufacturing of robots. Robots are often used to perform tasks that are difficult for humans to perform or perform consistently. They are used in assembly lines for car production or by NASA to move large objects in space. Researchers are also using machine learning to build robots that can interact in social settings.
+    Self-driving cars: These use a combination of computer vision, image recognition and deep learning to build automated skill at piloting a vehicle while staying in a given lane and avoiding unexpected obstructions, such as pedestrians.
+
+AI applications
+
+Artificial intelligence has made its way into a number of areas. Here are six examples.
+
+    AI in healthcare. The biggest bets are on improving patient outcomes and reducing costs. Companies are applying machine learning to make better and faster diagnoses than humans. One of the best known healthcare technologies is IBM Watson. It understands natural language and is capable of responding to questions asked of it. The system mines patient data and other available data sources to form a hypothesis, which it then presents with a confidence scoring schema. Other AI applications include chatbots, a computer program used online to answer questions and assist customers, to help schedule follow-up appointments or aid patients through the billing process, and virtual health assistants that provide basic medical feedback.
+    AI in business. Robotic process automation is being applied to highly repetitive tasks normally performed by humans. Machine learning algorithms are being integrated into analytics and CRM platforms to uncover information on how to better serve customers. Chatbots have been incorporated into websites to provide immediate service to customers. Automation of job positions has also become a talking point among academics and IT analysts.
+    AI in education. AI can automate grading, giving educators more time. AI can assess students and adapt to their needs, helping them work at their own pace. AI tutors can provide additional support to students, ensuring they stay on track. AI could change where and how students learn, perhaps even replacing some teachers.
+    AI in finance. AI in personal finance applications, such as Mint or Turbo Tax, is disrupting financial institutions. Applications such as these collect personal data and provide financial advice. Other programs, such as IBM Watson, have been applied to the process of buying a home. Today,  software  performs much of the trading on Wall Street.
+    AI in law. The discovery process, sifting through of documents, in law is often overwhelming for humans. Automating this process is a more efficient use of time. Startups are also building question-and-answer computer assistants that can sift programmed-to-answer questions by examining the taxonomy and ontology associated with a database.
+    AI in manufacturing. This is an area that has been at the forefront of incorporating robots into the workflow. Industrial robots used to perform single tasks and were separated from human workers, but as the technology advanced that changed .
+
+The impact of AI on marketing
+How AI affects marketing operations
+Security and ethical concerns 
+
+The application of AI in the realm of self-driving cars raises security as well as ethical concerns. Cars can be hacked, and when an autonomous vehicle is involved in an accident, liability is unclear. Autonomous vehicles may also be put in a position where an accident is unavoidable, forcing the programming to make an ethical decision about how to minimize damage.
+
+Another major concern is the potential for abuse of AI tools. Hackers are starting to use sophisticated machine learning tools to gain access to sensitive systems, complicating the issue of security beyond its current state.
+
+Deep learning-based video and audio generation tools also present bad actors with the tools necessary to create so-called deepfakes , convincingly fabricated videos of public figures saying or doing things that never took place .
+How biased data leads to inaccurate AI predictions
+How data bias impacts AI outputs
+Regulation of AI technology
+
+Despite these potential risks, there are few regulations governing the use AI tools, and where laws do exist, the typically pertain to AI only indirectly. For example, federal Fair Lending regulations require financial institutions to explain credit decisions to potential customers, which limit the extent to which lenders can use deep learning algorithms, which by their nature are typically opaque. Europe's GDPR puts strict limits on how enterprises can use consumer data, which impedes the training and functionality of many consumer-facing AI applications.
+
+In 2016, the National Science and Technology Council issued a report examining the potential role governmental regulation might play in AI development, but it did not recommend specific legislation be considered. Since that time the issue has received little attention from lawmakers.
+
+This was last updated in August 2018
+Continue Reading About AI (artificial intelligence)
+
+    AI tools are increasingly being adopted by newsrooms
+
+    Unconscious bias threatens to undermine enterprise AI use
+
+    Enterprises eye AI for process automation
+
+    How AI became a top priority for the US military
+
+    The value of a chief AI officer
+
+Related Terms
+
+artificial neural network (ANN)
+    In information technology (IT), a neural network is a system of hardware and/or software patterned after the operation of neurons... See complete definition 
+case-based reasoning (CBR)
+    Case-based reasoning (CBR) is an experience-based approach to solving new problems by adapting previously successful solutions to... See complete definition 
+supervised learning
+    Supervised learning, in the context of artificial intelligence (AI) and machine learning, is a type of system in which both input... See complete definition 
+
