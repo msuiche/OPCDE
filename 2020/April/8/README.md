@@ -10,3 +10,4 @@ Brian Pendleton (Visiting Professor @ Marymount University)
 Costin Raiu (Director of GReAT @ Kaspersky)
 ## The 'S' in Zoom, Stands for Security
 Patrick Wardle (Principal Security Researcher @ Jamf)
+- [Blogpost](https://objective-see.com/blog/blog_0x56.html)

@@ -4,6 +4,7 @@
 Alexandre Dulaunoy (Core Team Member @ MISP, Researcher @ CIRCL)
 ## It’s Goin’ Down: Finding New Threat Actors in Old Scriptures
 J. A. Guerrero-Saade (Co-Founder and Head of Research @ Stealth Security Startup)
+- [Blogpost](https://www.epicturla.com/blog/the-lost-nazar)
 ## Panel: Vulnerability Disclosure
 Casey Ellis (Founder/Chairman/CTO @ BugCrowd);
 Costin Raiu (Director of Global Research and Analysis Team at Kaspersky);
