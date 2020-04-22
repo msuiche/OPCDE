@@ -1,4 +1,5 @@
 # vOPCDE #3
+[YouTube Replay](https://youtu.be/QImyKDvryq8)
 ## Keynote: How information sharing is saving us - The MISP project perspective
 Alexandre Dulaunoy (Core Team Member @ MISP, Researcher @ CIRCL)
 ## It’s Goin’ Down: Finding New Threat Actors in Old Scriptures
