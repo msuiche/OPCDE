@@ -14,3 +14,4 @@ Costin Raiu (Director of Global Research and Analysis Team at Kaspersky);
 The Grugq (Moderator)
 ## Search & Delete: eDiscovery using EWS & Graph APIs
 Josh Rickard (Swimlane)
+- [Presentation Slides](https://github.com/MSAdministrator/search-and-delete-presentation)
