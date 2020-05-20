@@ -10,4 +10,6 @@ Gabriel Cirlig Independent
 Elliot Alderson fsociety
 ## Cleanly Escaping the Chrome Sandbox
 Tim Becker Security Researcher @ Theori
+- [Slides](./cleanly_escaping_the_chrome_sandbox.pdf)
 - [Blogpost](https://theori.io/research/escaping-chrome-sandboxf)
+- [Chrome CodeQL](https://github.com/github/securitylab/tree/master/CodeQL_Queries/cpp/Chrome)
