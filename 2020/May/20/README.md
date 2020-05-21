@@ -5,9 +5,9 @@ Gabriel Cirlig Independent
 ## Tracking the mobile trackers
 Costin Raiu (Director of Global Research and Analysis Team at Kaspersky);
 ## Panel: Mobile Tracking: Xiaomi, Aarogya Setu etc.
-Costin Raiu (Director of Global Research and Analysis Team at Kaspersky);
-Gabriel Cirlig Independent
-Elliot Alderson fsociety
+- Costin Raiu (Director of Global Research and Analysis Team at Kaspersky);
+- Gabriel Cirlig Independent
+- Elliot Alderson fsociety
 ## Cleanly Escaping the Chrome Sandbox
 Tim Becker Security Researcher @ Theori
 - [Slides](./cleanly_escaping_the_chrome_sandbox.pdf)
