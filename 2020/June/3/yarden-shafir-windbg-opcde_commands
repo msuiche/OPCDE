@@ -1,0 +1,26 @@
+OPCDE Keynote - commands and steps:
+
+1. Explore built-in registers - @$curthread, @$curprocess, @$cursession...
+   Print process array in decimal: dx @$cursession.Processes, d
+
+2. Find explorer.exe and its signature level:
+    dx @$cursession.Processes.Where(p => p.Name == "explorer.exe").KernelObject.SignatureLevel & 0xF
+    
+3. Print signature level for all processes:
+    dx -r2 @$cursession.Processes.Select(p => p.KernelObject.SignatureLevel)
+    
+4. Use anonymous type to print more information for each process, use -r2 to show 2 levels, use -g for grid view, order by signature level:
+    dx -r2 @$cursession.Processes.Select(p => new {Name = p.Name, PID = p.Id, SignatureLevel = p.KernelObject.SignatureLevel & 0xF}).OrderBy(p => p.SignatureLevel)
+
+5. Conditional Breakpoint - use bp /w to break on nt!NtWriteFile only when writing thread is impersonating:
+    bp /w "@$curthread.KernelObject.ClientSecurity.ImpersonationData != 0" nt!NtWriteFile
+    
+6. When breakpoint is hit, use anonymous type to print process name, thread ID, impersonation token authentication ID and name of file that's written into, and keep running:
+    bp /w "@$curthread.KernelObject.ClientSecurity.ImpersonationData != 0" nt!NtWriteFile "dx new { ProcName = @$curprocess.Name, ThreadId = @$curthread.Id, 
+      AuthId = ((nt!_TOKEN*)(@$curthread.KernelObject.ClientSecurity.ImpersonationToken & ~0xF))->AuthenticationId.LowPart, 
+      FileName = @$curprocess.Io.Handles[@rcx].Object.UnderlyingObject.FileName}; g"
+      
+Bonus - How to choose number of items printed from an array:
+    Only show first 10 items: dx @$cursession.Processes, 10
+    Show 9999 items: dx @$cursession.Processes, 9999
+    Show all items in array: dx @$cursession.Processes, [@$cursession.Processes.Count()]
